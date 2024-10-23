@@ -1,0 +1,192 @@
+.view-all-get-buied-property-list {
+    padding: 5px;
+}
+
+.view-all-get-buied-property-card-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    overflow: hidden;
+}
+
+/* Heading Style */
+.view-all-get-buied-property-card-container .h2-buied-property-list {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #e75b0a;
+}
+
+/* Property List Styling */
+.get-buied-property-data-list {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    left: 5%;
+    position: relative;
+}
+
+/* Individual Property Item */
+.get-buied-property-data-list .view-all-get-buied-property-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+ 
+}
+
+.get-buied-property-data-list .view-all-get-buied-property-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Property Title & Content Styling */
+.get-buied-property-data-list .buied-property-list-p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Strong Labels */
+.get-buied-property-data-list .buied-property-list-p strong {
+    color: #333;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .get-buied-property-data-list {
+        grid-template-columns: 1fr;
+    }
+
+    .view-all-get-buied-property-card-container {
+        padding: 10px;
+    }
+
+    .view-all-get-buied-property-card-container .h2-buied-property-list {
+        font-size: 1.5rem;
+    }
+
+    .get-buied-property-data-list .view-all-get-buied-property-card {
+        padding: 15px;
+    }
+
+    .get-buied-property-data-list .buied-property-list-p {
+        font-size: 0.9rem;
+    }
+
+}
+
+.btn-get-property-buied {
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+    height: 40px;
+}
+
+.image-container {
+    width: 100%;
+    height: auto; /* Adjust this height to make the square container */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns as needed */
+    gap: 5px; /* Space between images */
+    overflow: hidden;
+  }
+
+  
+.search-box-buied-property-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #f7f7f7;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 500px;
+    transition: all 0.3s ease;
+    left: 23%;
+    position: relative;
+  }
+  
+  .search-box-buied-property-container {
+    width: 100%;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  
+  .search-box-buied-property-container::placeholder {
+    color: #bbb;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  
+  
+  .search-box-buied-property-container:focus {
+    outline: none;
+    border: 2px solid #007BFF;
+    box-shadow: 0 0 12px rgba(0, 123, 255, 0.4);
+  }
+  
+  
+  .search-box-buied-property-container:focus::placeholder {
+    opacity: 0;
+  }
+  
+  
+  .search-box-buied-property-container::before {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #007BFF;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+  }
+  
+  
+  .search-box-buied-property-container:focus+.search-box-buied-property-container::before {
+    transform: translateY(-50%) scale(0.9);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  @media (max-width: 768px) {
+    .search-box-buied-property-container {
+      width: 80%;
+      padding: 8px;
+    }
+  
+    .search-box-buied-property-container {
+      padding: 12px 18px;
+    }
+  }
+  .property-image-home {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-top: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .property-image-home:hover {
+    transform: scale(1.05);
+  }

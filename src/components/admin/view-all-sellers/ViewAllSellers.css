@@ -1,0 +1,51 @@
+.view-all-seller-list {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  
+  .view-all-seller-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 20px;
+    left: 5%;
+    position: relative;
+  }
+  
+  .view-all-seller-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .view-all-seller-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .view-all-seller-card h3{
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  .view-all-seller-h2{
+    font-size: 20px;
+  }
+  
+  .view-all-seller-card p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .view-all-seller-card a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .view-all-seller-card a:hover {
+    text-decoration: underline;
+  }
+  

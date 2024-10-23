@@ -1,0 +1,59 @@
+.seller-submenu {
+    width: 10rem;
+    position: absolute;
+    list-style: none;
+    text-align: start;
+    top: 67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.seller-submenu li {
+    background:  white;
+    cursor: pointer;
+}
+
+.seller-submenu.clicked {
+    display: none;
+}
+.seller-submenu li a:hover{
+    background: white;
+}
+
+.submenu-item {
+  display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    padding: 16px; 
+    /* width: 100%;
+    padding: 10px; */
+    /* border: 2px solid #007BFF;  */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #ffffff; /* White background */
+    font-size: 16px;
+    color: #333; /* Text color */
+    appearance: none; /* Remove default arrow */
+    cursor: pointer; /* Cursor change */
+    transition: border-color 0.3s ease; 
+    
+}
+.submenu-item:focus {
+    border-color: white; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Custom arrow using pseudo-element */
+  .submenu-item::after {
+    /* content: '▼';  */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Prevent interaction */
+  }
+  .submenu-item:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }

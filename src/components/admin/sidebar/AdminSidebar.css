@@ -1,0 +1,123 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+
+  .admin-sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+
+  h2 {
+    font-size: 20px;
+    color: #f45a08;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+ 
+  .admin-sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .admin-sidebar ul li {
+    margin-bottom: 15px;
+  }
+  
+
+  .admin-sidebar ul li a {
+    text-decoration: none;
+    color: #ECF0F1;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+
+  .admin-sidebar ul li a:hover {
+    background-color: #3498DB;
+    color: #fff;
+  }
+  
+  .admin-sidebar ul li a:focus,
+  .admin-sidebar ul li a:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .admin-sidebar ul li a.active {
+    background-color: #2980B9;
+  }
+  
+
+  @media (max-width: 768px) {
+    .admin-sidebar {
+      width: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .admin-sidebar {
+      width: 100%; 
+      position: relative; 
+      height: auto;
+    }
+    .admin-sidebar h2 {
+      font-size: 20px;
+    }
+    .admin-sidebar ul li {
+      font-size: 16px;
+    }
+    .admin-sidebar ul li a {
+      padding: 8px;
+    }
+  }
+   */
+
+   /* body {
+    margin: 0;
+    font-family: "Figtree", -apple-system, BlinkMacSystemFont, "Segoe UI", "Figtree", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    background: #ffffff;
+    font-size: 24px;
+}
+.sidebar-div {
+    background: #a8d5e5;
+}
+.sidebar-h1 {
+    color: #165a72;
+    margin: 50px auto;
+    font-size: 40px;
+}
+.menu1 {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.sidebar-h2 {
+    color: #165a72;
+} */
+/* .admin-sidebar{
+  position: fixed;
+} */

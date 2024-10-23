@@ -1,0 +1,107 @@
+/* Overall container */
+.user-details-div {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-details-h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #f96706;
+}
+
+/* Profile Data List Container */
+.profile-data-list-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Form styling */
+.user-details-form-div {
+    margin-bottom: 1.5rem;
+}
+
+.user-details-form-div label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.user-details-form-div input,
+.user-details-form-div select {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.user-details-form-div input:focus,
+.user-details-form-div select:focus {
+    border-color: #4d90fe;
+    outline: none;
+}
+
+.user-details-form-div input[disabled] {
+    background-color: #f1f1f1;
+    /* cursor: not-allowed; */
+}
+
+.user-details-form-div select {
+    background-color: #fff;
+}
+
+/* Button styling */
+.user-details-form-btn-update {
+    text-align: center;
+}
+
+.user-details-form-btn-update button {
+    background-color: #4d90fe;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-details-form-btn-update button:hover {
+    background-color: #357ae8;
+}
+
+/* .user-details-form-btn-update button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+} */
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .user-details-div {
+        padding: 1.5rem;
+    }
+
+    .user-details-h2 {
+        font-size: 1.5rem;
+    }
+
+    .user-details-form-div input,
+    .user-details-form-div select {
+        padding: 0.6rem;
+    }
+
+    .user-details-form-btn-update button {
+        padding: 0.6rem 1.5rem;
+    }
+}

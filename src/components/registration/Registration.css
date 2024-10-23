@@ -1,0 +1,176 @@
+/* .wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+form {
+   display: flex; 
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  margin-bottom: 15px;
+}
+
+.input-box input, .input-box select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+} */
+
+
+/* body {
+  margin: 0;
+  padding: 0;
+  background: url(https://picsum.photos/2500/1500?image=976);
+  background-size: cover;
+  font-family: sans-serif;
+} */
+
+form {
+  display: flex; 
+ flex-direction: column;
+ gap: 20px;
+}
+
+/* h1 {
+ text-align: center;
+ margin-bottom: 20px;
+} */
+.register-box-div{
+  background-image: url("https://thumbs.dreamstime.com/b/automated-property-management-smart-building-equipped-sensors-artificial-intelligence-technology-autonomously-321894551.jpg");
+  background-size: cover;
+  height: 120vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.registerBox {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 650px;
+  padding: 70px 40px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.user1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: calc(-100px/2);
+  left: calc(50% - 50px);
+}
+
+h2 {
+  margin: 0;
+  padding: 0 0 26px;
+  color: #ff8c00;
+  text-align: center;
+}
+
+.registerBox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+.registerBox input{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  top: 10px;
+  font-size: 16px;
+}
+
+::placeholder
+{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.registerBox .btn-register{
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #eee;
+  font-size: 16px;
+  background-color: #FF8C00;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 12px 0 18px;
+  width: 264px;
+}
+
+.registerBox .btn-register:hover {
+  background-color: #ff9719;
+  color: #fff;
+} 
+
+.registerBox a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+input {
+  margin-bottom: 15px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
